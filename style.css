@@ -140,6 +140,10 @@ a.scroll-down {
     gap: 15px;
 }
 
+a.nav-search-btn:hover path {
+    fill: red;
+}
+
 a.btn {
     padding: 15px 25px;
     border-radius: 4px;
