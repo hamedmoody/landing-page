@@ -318,7 +318,7 @@ div#why {
     top: 0;
     right: 0;
     bottom: 0;
-    background: var(--color-primary);
+    background: var(--color-secondary);
     position: absolute;
     z-index: -32;
     transition: 0.3s;
