@@ -171,6 +171,10 @@ section#header > header video {
     display: flex;
 }
 
+.course-demo video{
+    height: auto;
+}
+
 .header_right h1 {
     font-size: 48px;
     margin-bottom: 30px;
