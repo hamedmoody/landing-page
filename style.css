@@ -9,6 +9,7 @@
     --color-primary: #0079E2;
     --color-primary-hover: #0062b7;
     --color-secondary: #E35B17;
+    --color-secondary-light: #ffede5;
     --color-primary-rgb: 0,121,226;
     --color-secondary-rgb: 227,91,23;
 }
@@ -151,6 +152,10 @@ a.btn.btn-secondary {
     display: inline-flex;
     align-items: center;
     gap: 5px;
+}
+
+a.btn.btn-secondary:hover{
+    color: var(--color-secondary-light);
 }
 
 section#header > header {
