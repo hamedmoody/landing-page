@@ -7,6 +7,7 @@
 
 :root {
     --color-primary: #0079E2;
+    --color-primary-hover: #0062b7;
     --color-secondary: #E35B17;
     --color-primary-rgb: 0,121,226;
     --color-secondary-rgb: 227,91,23;
@@ -204,6 +205,10 @@ section#header > header video {
 
 a.btn.btn-primary {
     background: var(--color-primary);
+}
+
+a.btn.btn-primary:hover {
+    background: var(--color-primary-hover);
 }
 
 .header_btns {
