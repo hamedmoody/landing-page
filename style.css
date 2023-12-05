@@ -139,7 +139,9 @@ a.scroll-down {
     align-items: center;
     gap: 15px;
 }
-
+a.nav-search-btn path{
+    transition: 0.3s;
+}
 a.nav-search-btn:hover path {
     fill: red;
 }
